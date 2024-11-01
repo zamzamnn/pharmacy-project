@@ -36,3 +36,40 @@
     transform: rotate(360deg);
   }
 }
+
+/* Ensure the html and body take full height */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-image: url("https://images.unsplash.com/photo-1676364424409-e87919caffe1?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+
+/* This makes the content container grow to fill the available space */
+.content {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Minimum height of 100% of the viewport */
+}
+
+/* Pushes footer to the bottom when content is small */
+.footer {
+  margin-top: auto; /* Auto margins will push the footer to the bottom */
+  background-color: #343a40;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Optional Header Styling */
+.header {
+  background-color: #007bff;
+  color: white;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

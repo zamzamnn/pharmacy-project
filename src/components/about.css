@@ -1,0 +1,28 @@
+.aboutus-container {
+    background-color: #f9f9f9;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 50px auto;
+    font-family: Arial, sans-serif;
+  }
+  
+  .aboutus-container h1 {
+    color: #333;
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .aboutus-container p {
+    color: #666;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  .aboutus-container p:last-child {
+    margin-bottom: 0;
+  }
+  
+  

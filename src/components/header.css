@@ -1,0 +1,49 @@
+.header {
+  background-color: #007bff; /* Bootstrap blue */
+  color: white;
+  padding: 10px;
+  display: flex;
+  justify-content: center; /* Center the title */
+  align-items: center;
+  margin-bottom: 20px; /* Added margin at the bottom */
+}
+
+.header h1 {
+  margin: 0; /* Remove default margin */
+  text-align: center; /* Center the text */
+  flex-grow: 1; /* Allow the title to take available space */
+}
+
+.header ul {
+  list-style: none;
+  display: flex;
+  gap: 20px; /* Spacing between list items */
+  margin: 0; /* Reset margin for ul */
+  padding: 0; /* Reset padding for ul */
+  align-items: start;
+}
+
+.header a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s; /* Smooth transition for hover effect */
+}
+
+/* Hover Effect */
+.header a:hover {
+  color: red; /* Change color on hover (Bootstrap yellow) */
+}
+
+.logout-btn {
+  background: none;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  font-size: 1em;
+  text-decoration: underline;
+  padding: 0;
+}
+
+.logout-btn:hover {
+  color: #ccc;
+}

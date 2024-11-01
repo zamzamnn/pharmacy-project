@@ -1,0 +1,85 @@
+
+.login-container {
+  background-color: #f7f7f7; /* Light background */
+  padding: 40px;
+  max-width: 400px;
+  margin: 50px auto; /* Center the container */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Shadow effect */
+  font-family: 'Arial', sans-serif; /* Font style */
+}
+
+/* Login Form */
+.login-form {
+  display: flex;
+  flex-direction: column; /* Stack inputs vertically */
+}
+
+/* Form Heading */
+.login-form h2 {
+  color: #333; /* Dark text color */
+  font-size: 28px; /* Heading size */
+  margin-bottom: 30px; /* Space below the heading */
+  text-align: center; /* Center align the heading */
+}
+
+/* Form Group */
+.login-group {
+  margin-bottom: 20px; /* Space between input groups */
+}
+
+/* Form Labels */
+.login-group label {
+  font-size: 14px; /* Label size */
+  color: #555; /* Medium gray for labels */
+  margin-bottom: 8px; /* Space below labels */
+  display: block; /* Block display for labels */
+}
+
+/* Input Fields */
+.login-group input {
+  width: 100%; /* Full width of the container */
+  padding: 10px; /* Padding inside inputs */
+  font-size: 16px; /* Input text size */
+  border: 1px solid #ccc; /* Light gray border */
+  border-radius: 5px; /* Rounded corners for inputs */
+  box-sizing: border-box; /* Include padding in total width/height */
+  background-color: #fdfdfd; /* Light background for inputs */
+  transition: border-color 0.2s ease-in-out; /* Smooth border color change */
+}
+
+/* Input Focus */
+.login-group input:focus {
+  border-color: #3498db; /* Blue border on focus */
+  outline: none; /* Remove default outline */
+}
+
+/* Login Button */
+.login-btn {
+  width: 100%; /* Full width of the container */
+  padding: 12px; /* Padding inside button */
+  font-size: 16px; /* Button text size */
+  background-color: #3498db; /* Blue background for button */
+  color: #fff; /* White text color */
+  border: none; /* No border */
+  border-radius: 5px; /* Rounded corners for button */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s; /* Smooth background color change */
+}
+
+/* Button Hover Effect */
+.login-btn:hover {
+  background-color: #2980b9; /* Darker blue on hover */
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  .login-container {
+      padding: 20px; /* Less padding on smaller screens */
+      max-width: 90%; /* Full width on small screens */
+  }
+
+  .login-btn {
+      font-size: 14px; /* Smaller button text size on small screens */
+  }
+}

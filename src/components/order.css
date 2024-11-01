@@ -1,0 +1,94 @@
+
+.order-container {
+  background-color: #f9f9f9; /* Light background color */
+  padding: 40px; /* Padding around the form */
+  max-width: 400px; /* Maximum width of the form */
+  margin: 50px auto; /* Center the form on the page */
+  border-radius: 10px; /* Rounded corners for the container */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+  font-family: 'Arial', sans-serif; /* Font style for the form */
+}
+
+
+.order-form {
+  display: flex; /* Use flexbox for layout */
+  flex-wrap: wrap; /* Allow wrapping of input fields */
+}
+
+/* Form Heading */
+.order-form h1 {
+  color: #333; /* Dark text color */
+  font-size: 28px; /* Size of the heading */
+  margin-bottom: 30px; /* Space below the heading */
+  text-align: center; /* Center align the heading */
+  width: 100%; /* Full width for heading */
+}
+
+/* Order Group */
+.order-group {
+  flex-basis: 48%; /* Take up 48% of the width, two items per row */
+  margin-bottom: 20px; /* Space between input groups */
+}
+
+/* Form Labels */
+.order-group label {
+  font-size: 14px; /* Size of labels */
+  color: #555; /* Medium gray color for labels */
+  margin-bottom: 8px; /* Space below labels */
+  display: block; /* Block display for labels */
+}
+
+/* Input Fields */
+.order-group input,
+.order-group select {
+  width: 100%; /* Full width of the container */
+  padding: 10px; /* Padding inside inputs */
+  font-size: 16px; /* Size of input text */
+  border: 1px solid #ccc; /* Light gray border */
+  border-radius: 5px; /* Rounded corners for inputs */
+  box-sizing: border-box; /* Include padding in total width/height */
+  background-color: #fdfdfd; /* Light background for inputs */
+  transition: border-color 0.2s ease-in-out; /* Smooth border color change */
+}
+
+/* Input Focus */
+.order-group input:focus,
+.order-group select:focus {
+  border-color: #3498db; /* Blue border on focus */
+  outline: none; /* Remove default outline */
+}
+
+/* Submit Button */
+.submit-btn {
+  width: 100%; /* Full width of the container */
+  padding: 12px; /* Padding inside button */
+  font-size: 16px; /* Size of button text */
+  background-color: #3498db; /* Blue background for button */
+  color: #fff; /* White text color */
+  border: none; /* No border */
+  border-radius: 5px; /* Rounded corners for button */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s; /* Smooth background color change */
+  margin-top: 20px; /* Space above the button */
+}
+
+/* Button Hover Effect */
+.submit-btn:hover {
+  background-color: #2980b9; /* Darker blue on hover */
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  .booking-container {
+    padding: 20px; /* Less padding on smaller screens */
+    max-width: 90%; /* Full width on small screens */
+  }
+
+  .submit-btn {
+    font-size: 14px; /* Smaller button text size on small screens */
+  }
+
+  .order-group {
+    flex-basis: 100%; /* Full width for inputs on smaller screens */
+  }
+}
